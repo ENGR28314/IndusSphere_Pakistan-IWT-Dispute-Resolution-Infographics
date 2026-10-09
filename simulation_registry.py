@@ -1,0 +1,20 @@
+"""Central catalog of executable simulation modules included in IndusSphere."""
+SIMULATION_CATALOG = [
+    {"name": "Reservoir / Water Balance", "module": "hydrology_engine.py", "type": "Hydrology", "purpose": "Storage, inflow, demand, release and shortage screening"},
+    {"name": "Flood Screening", "module": "flood_engine.py", "type": "Hydrology / Flood", "purpose": "Rainfall-runoff and channel-capacity screening"},
+    {"name": "Crop Water Requirement", "module": "crop_water_engine.py", "type": "Agro-hydrology", "purpose": "Crop ET and irrigation-volume screening"},
+    {"name": "Climate Stress", "module": "climate_engine.py", "type": "Climate Risk", "purpose": "Scenario and sensitivity screening"},
+    {"name": "Monte Carlo Risk", "module": "monte_carlo_engine.py", "type": "Uncertainty", "purpose": "Input uncertainty and risk distribution"},
+    {"name": "River / Canal Network", "module": "network_engine.py", "type": "Network", "purpose": "Simplified directed flow routing"},
+    {"name": "Groundwater Balance", "module": "additional_simulation_engines.py", "type": "Groundwater", "purpose": "Recharge-pumping storage trajectory"},
+    {"name": "Drought Stress", "module": "additional_simulation_engines.py", "type": "Drought", "purpose": "Rainfall deficit, heat and demand-pressure screening"},
+    {"name": "Sediment Load", "module": "additional_simulation_engines.py", "type": "Sediment", "purpose": "Discharge-concentration sediment mass estimate"},
+    {"name": "Water Quality Index", "module": "additional_simulation_engines.py", "type": "Water Quality", "purpose": "Input-driven screening index from selected parameters"},
+    {"name": "Irrigation Schedule", "module": "additional_simulation_engines.py", "type": "Irrigation", "purpose": "ET-based gross irrigation requirement"},
+    {"name": "Socio-Agro Projection", "module": "additional_simulation_engines.py", "type": "Socio-economic", "purpose": "Input-driven metric projection under a user-selected growth assumption"},
+    {"name": "Simulated Weather + Hydraulic Hazard", "module": "weather_hydraulic.py", "type": "Weather / Hydraulic Risk", "purpose": "Simulated current weather, rainfall, river telemetry and transparent hydraulic-hazard screening for Sialkot, Jhelum and Lahore"},
+    {"name": "IWT Data-Exchange Screening", "module": "iwt_compliance_engine.py", "type": "IWT Evidence", "purpose": "Documentation-gap screening"},
+    {"name": "IWT Timeline", "module": "iwt_timeline_engine.py", "type": "IWT Timeline", "purpose": "Documented procedural timeline"},
+    {"name": "IWT Evidence Ledger", "module": "iwt_evidence_engine.py", "type": "IWT Evidence", "purpose": "Evidence and source tracking"},
+    {"name": "IWT Scenario Matrix", "module": "iwt_scenario_engine.py", "type": "IWT Scenario", "purpose": "Scenario comparison workspace"},
+]

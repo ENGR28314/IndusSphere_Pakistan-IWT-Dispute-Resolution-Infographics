@@ -1,0 +1,7 @@
+site,date,latitude,longitude,ET_mm_day,rainfall_mm,ndvi,land_cover
+Sialkot-01,2025-06-01,32.4927,74.5319,4.8,12.5,0.62,Irrigated cropland
+Jhelum-01,2025-06-01,32.9335,73.7264,4.1,8.2,0.48,Mixed agriculture
+Lahore-01,2025-06-01,31.5204,74.3587,5.2,5.1,0.55,Urban/peri-urban
+Sialkot-02,2025-07-01,32.5000,74.5400,5.4,22.0,0.67,Irrigated cropland
+Jhelum-02,2025-07-01,32.9400,73.7300,4.7,15.6,0.52,Mixed agriculture
+Lahore-02,2025-07-01,31.5300,74.3700,5.0,18.3,0.57,Urban/peri-urban

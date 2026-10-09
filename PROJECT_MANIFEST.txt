@@ -1,0 +1,91 @@
+IndusSphere Pakistan — Expanded Streamlit Project Manifest
+Creator: Engr. Syed Hassan Iqbal Shah
+Release: 2026-09-26
+
+CORE STREAMLIT
+- app.py
+- requirements.txt
+- runtime.txt
+- packages.txt
+- .streamlit/config.toml
+- README.md
+- sources.md
+
+AGRO / SOCIO-ECONOMIC
+- socio_agro_inputs.py — Rabi/Kharif tables, apiculture/aquaculture indicators, editable input dataset and metric definitions
+- socio_agro_engine.py
+- socio_economic.py
+- agro_economic.py
+- crop_water_engine.py
+- additional_simulation_engines.py — groundwater, drought, sediment, water-quality, irrigation and socio-agro projection engines
+
+SIMULATION / ENGINE MODULES
+- simulation_engine.py
+- simulation_registry.py
+- hydrology_engine.py
+- flood_engine.py
+- crop_water_engine.py
+- climate_engine.py
+- monte_carlo_engine.py
+- network_engine.py
+- hydraulic_model.py
+- water_quality_analytics.py
+- data_analytics.py
+
+IWT / CHENAB / EVIDENCE
+- indian_projects.py
+- iwt_technical.py
+- iwt_compliance_engine.py
+- iwt_data_exchange_engine.py
+- iwt_timeline_engine.py
+- iwt_dispute_resolution_engine.py
+- iwt_evidence_engine.py
+- iwt_scenario_engine.py
+- geo_strategic_engine.py
+- geopolitical.py
+
+MAP / INVENTORY
+- map_view.py
+- map_input.py
+- coordinates.py
+- data_loader.py
+- expanded_inventory.py
+- park_data.py
+- forest_data.py
+- desert_data.py
+- desert_map_engine.py
+- network_view.py
+
+FRAMEWORKS / OTHER
+- development_framework.py
+- development_indicators.py
+- esg_framework.py
+- esg_engine.py
+- china_hydropower.py
+- soil_environment.py
+- run_app.bat
+
+VALIDATION
+- All Python modules compile with python -m py_compile.
+- Core non-UI modules import successfully in the build environment.
+- A live Streamlit server cannot be claimed as tested in this environment because Streamlit is not installed in the execution container. The package declares the required Streamlit dependency for deployment.
+- telecommunication.py — source-derived WAPDA western/eastern telecommunication network inventories
+- telecom_network_engine.py — generic input-driven network distance/summary utilities
+- source_documents/HF Radio maintained by WAPDA.pdf — supplied source document
+- source_documents/Meteor burst Telecommunication System of WAPDA.pdf — supplied source document
+India Indus-basin hydropower inventory and separate map:
+- india_indus_hydropower.py
+- india_hydropower_map.py
+- data/india_indus_17_hydropower_projects.csv
+- app.py section: India Indus-Basin Hydropower (17 Projects)
+
+- weather_hydraulic.py — simulated live weather/rainfall and hydraulic hazard screening
+
+- telemetry_engine.py — reproducible 12-month synthetic city/basin telemetry
+
+- test_weather_hydraulic.py — unit tests for the weather/telemetry/hazard engine
+
+SEBAL UPLOAD ANALYTICS (2026-10-09)
+- sebal_upload_analytics.py — CSV/Excel reader, coordinate alias detection, coordinate range validation
+- test_sebal_upload_analytics.py — unit tests for upload and coordinate handling
+- sample_sebal_upload.csv — illustrative CSV template for chart/map testing (not observed data)

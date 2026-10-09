@@ -1,0 +1,17 @@
+numpy>=1.26,<3
+streamlit>=1.42,<2
+pandas>=2.0,<3
+plotly>=6.0,<7
+openpyxl>=3.1,<4
+xlrd>=2.0,<3
+pypdf>=5.0,<7
+pdfplumber>=0.11,<1
+PyMuPDF>=1.24,<2
+pytesseract>=0.3,<1
+Pillow>=10,<12
+earthengine-api>=1.6,<2
+geemap>=0.36,<1
+geopandas>=1.0,<2
+streamlit-folium>=0.25,<1
+shapely>=2.0,<3
+pyogrio>=0.10,<1
