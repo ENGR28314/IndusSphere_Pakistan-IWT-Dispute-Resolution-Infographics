@@ -1,0 +1,11 @@
+[theme]
+base = "light"
+primaryColor = "#146C94"
+
+[server]
+headless = true
+maxUploadSize = 200
+fileWatcherType = "auto"
+
+[browser]
+gatherUsageStats = false
